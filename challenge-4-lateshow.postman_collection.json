@@ -1,0 +1,79 @@
+{
+  "info": {
+    "_postman_id": "lateshow-api-challenge-collection",
+    "name": "Late Show API Challenge",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get All Episodes",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/episodes/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["episodes", ""]
+        }
+      }
+    },
+    {
+      "name": "Get All Appearances",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/appearances/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["appearances", ""]
+        }
+      }
+    },
+    {
+      "name": "Get All Guests",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/guests/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["guests", ""]
+        }
+      }
+    },
+    {
+      "name": "Get All Users",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/users/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["users", ""]
+        }
+      }
+    },
+    {
+      "name": "API Index",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": [""]
+        }
+      }
+    }
+  ]
+}
