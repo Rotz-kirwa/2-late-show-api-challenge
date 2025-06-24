@@ -1,16 +1,18 @@
 # 🌙 Late Show API Challenge
 
-A full-featured Flask REST API for managing a Late Night TV show system, built with MVC architecture, PostgreSQL, JWT authentication, and tested with Postman.
+**Author:** Eliu Rotich
+
+A robust Flask REST API for managing a Late Night TV show system, built with best practices: MVC architecture, PostgreSQL, JWT authentication, and full Postman test coverage.
 
 ---
 
 ## 🚀 Features
-- MVC folder structure
+- Clean MVC folder structure
 - PostgreSQL database (no SQLite!)
 - Token-based authentication (JWT)
 - Secure password hashing
 - Cascade delete for appearances
-- Full RESTful endpoints for users, guests, episodes, and appearances
+- RESTful endpoints for users, guests, episodes, and appearances
 - Postman collection for easy API testing
 
 ---
@@ -161,3 +163,9 @@ Headers: { "Authorization": "Bearer <token>" }
 - [x] All routes work and tested in Postman
 - [x] Clean, complete README.md
 - [x] GitHub repo pushed
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
